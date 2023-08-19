@@ -89,12 +89,11 @@ WSGI_APPLICATION = 'our_app.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'dgcrjnylfysfjzcwfogmtnxr',
-        'USER': 'rlgvxyeqevqpikwk',
-        'PASSWORD': 'RUxr84=CMexzoI+x65z<Ugx#dzm#ocgq',
-        'HOST': '102.134.147.233',  
-        'PORT': '32761',  
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'recess_project',
+        'USER': 'group-s',
+        'PASSWORD': 'kevin',
+        'HOST': '34.39.99.254' 
     }
 }
 
