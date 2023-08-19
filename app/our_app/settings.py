@@ -72,35 +72,15 @@ TEMPLATES = [
 WSGI_APPLICATION = 'our_app.wsgi.application'
 
 
-# Database
-# https://docs.djangoproject.com/en/3.2/ref/settings/#databases
-
-# DATABASES = { 
-#     'default': {
-#         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': 'sfjyumaqaqraaaufavdioaox',
-#         'USER': 'tsbfwyzjnnraplhr',
-#         'PASSWORD': '00,ZJTNVfcLqhOCmI>lI7LuBkAVrpT-w',
-#         'HOST': '102.134.147.233',
-#         'PORT': '32764',
-#     }
-# }
-
-
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'recess_project',
-        'USER': 'group-s',
-        'PASSWORD': 'kevin',
-        'HOST': '34.39.99.254' 
-    }
-}
-
-
-
-# Password validation
-# https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
+    "default": {
+        "ENGINE": 'django.db.backends.postgresql',
+        "NAME": 'byzjrpjtxbgnvfddlwdgefls',
+        "USER": 'wtostrnowvfzciez',
+        "PASSWORD": 'VcOyb0oE2>ESEJJw0FJPOxXC,yGMQ_P6',
+        "HOST": '102.134.147.233',
+        "PORT": 32761,
+}}
 
 AUTH_PASSWORD_VALIDATORS = [
     {
