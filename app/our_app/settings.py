@@ -31,8 +31,8 @@ ALLOWED_HOSTS = ['*']
 SSL_REDIRECT = True
 
 # Set the SSL certificate file and key
-SSL_CERTIFICATE = os.path.join(BASE_DIR, '/keys/makstudentfeedback.systems.csr')
-SSL_KEY = os.path.join(BASE_DIR, '/keys/makstudentfeedback.systems.key')
+# SSL_CERTIFICATE = os.path.join(BASE_DIR, '/keys/makstudentfeedback.systems.csr')
+# SSL_KEY = os.path.join(BASE_DIR, '/keys/makstudentfeedback.systems.key')
 
 # Application definition
 
