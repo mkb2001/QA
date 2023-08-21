@@ -78,14 +78,23 @@ TEMPLATES = [
 WSGI_APPLICATION = 'our_app.wsgi.application'
 
 
+# DATABASES = {
+#     "default": {
+#         "ENGINE": 'django.db.backends.postgresql',
+#         "NAME": 'byzjrpjtxbgnvfddlwdgefls',
+#         "USER": 'wtostrnowvfzciez',
+#         "PASSWORD": 'VcOyb0oE2>ESEJJw0FJPOxXC,yGMQ_P6',
+#         "HOST": '102.134.147.233',
+#         "PORT": 32761,
+# }}
 DATABASES = {
     "default": {
         "ENGINE": 'django.db.backends.postgresql',
-        "NAME": 'byzjrpjtxbgnvfddlwdgefls',
-        "USER": 'wtostrnowvfzciez',
-        "PASSWORD": 'VcOyb0oE2>ESEJJw0FJPOxXC,yGMQ_P6',
-        "HOST": '102.134.147.233',
-        "PORT": 32761,
+        "NAME": 'recess_project',
+        "USER": 'group-s',
+        "PASSWORD": 'Xf`3<jOUGmv_:/>p',
+        "HOST": '34.30.99.254'
+     
 }}
 
 AUTH_PASSWORD_VALIDATORS = [
