@@ -27,7 +27,12 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
+# Redirect HTTP requests to HTTPS
+SSL_REDIRECT = True
 
+# Set the SSL certificate file and key
+SSL_CERTIFICATE = os.path.join(BASE_DIR, '/keys/makstudentfeedback.systems.csr')
+SSL_KEY = os.path.join(BASE_DIR, '/keys/makstudentfeedback.systems.key')
 
 # Application definition
 
@@ -39,6 +44,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'website',
+    'sslserver'
 ]
 
 MIDDLEWARE = [
